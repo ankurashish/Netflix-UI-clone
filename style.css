@@ -1,0 +1,202 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background: black;
+}
+.main{
+    background-image: url("assets/img/bg.jpg");
+    height: 80vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+}
+
+.main .box{
+    height: 80vh;
+    width: 100%;
+    
+    background-color: rgba(0, 0, 0, 0.69);
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+nav{
+    max-width: 80vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    
+    align-items: center;
+    height: 62px;
+    
+}
+nav img{
+    color: red;
+    width: 114px;
+    position: relative;
+    z-index: 2;
+
+}
+nav button{
+    position: relative;
+    z-index: 2;
+}
+.main .hero{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(255, 255, 255); /* Added color value */
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    gap: 23px;
+    padding: 0 30px;
+    text-align: center;
+}
+
+
+.hero> :nth-child(1){
+    
+    font-weight: bolder;
+    font-size: 68px;
+}
+.hero> :nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+}
+.hero> :nth-child(3){
+    font-weight: lighter;
+    font-size: 20px;
+
+}
+.separation{
+    height: 3px;
+    background: gray;
+}
+.btn{
+    padding: 3px 8px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn-red{
+    color: white;
+    background-color: red;
+    padding: 3px 24px;
+    font-size: 20px; 
+    border-radius: 4px;
+}
+.btn-red-s{
+    background-color: red;
+    color: white;
+    /* padding: 3px 24px;
+    font-size: 20px; */
+    /* border-radius: 4px; */
+}
+.main input{
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+    background-color: rgba(23,23,23,0.2);
+}
+.main input{
+    color: white;
+    padding: 8px 101px 4px 14px;
+    font-weight: 900;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: rgba(23,23,23,0.7);
+    border: 1px solid rgb(255, 255, 255);
+}
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    max-width: 50vw;
+    margin: auto;
+}
+.secimg{
+    position: relative;
+}
+.secimg img{
+    position: relative;
+    height: 25vh;
+    max-width: 40vw;
+    left: 10vw;
+    /* width: 30vw;
+    position: relative;
+    z-index: 20; */
+}
+.secimg video{
+    position: absolute;
+    height: 20vh;
+    
+    
+    max-width: 18vw;
+    left: 15.3vw;
+    top: 1vh;
+    /* position: absolute;
+    top: 51px;
+    right: 0; */
+    
+}
+section.first> div{
+    display: flex;
+    flex-direction: column;
+}
+section.first> div :first-child{
+    font-size: 48px;
+    font-weight: bolder;
+}
+section.first> div :nth-child(2){
+    font-size: 24px;
+
+}
+.faq h2{
+    text-align: center;
+    font-size: 48px;
+}
+.faq{
+    background: black;
+    color: white;
+    padding: 34px;
+    font-size: 24px;
+}
+.faqbox{
+    transition: all 1s ease-in;
+    display: flex ;
+    justify-content: space-between;
+    background: rgb(58, 58, 58);
+    padding: 24px;
+    max-width: 60vw;
+    margin: 34px auto;
+    cursor: pointer;
+    
+}
+.faq :hover{
+    background-color: rgb(81, 79, 79);
+}
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+}
+.footer-items{
+    display: flex;
+    flex-direction: column;
+    
+}
+.footer-items a{
+    color: white;
+}
