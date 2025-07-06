@@ -146,11 +146,12 @@ nav button {
 
 .secimg {
   position: relative;
+  width: 100%;
+  max-width: 500px;
 }
 
 .secimg img {
   width: 100%;
-  max-width: 400px;
   z-index: 2;
   position: relative;
 }
@@ -158,11 +159,14 @@ nav button {
 .secimg video {
   position: absolute;
   top: 20%;
-  left: 15%;
-  width: 70%;
-  height: auto;
+  left: 13%;
+  width: 74%;
+  height: 60%;
+  object-fit: cover;
   z-index: 1;
+  pointer-events: none;
 }
+
 
 .faq {
   padding: 40px 20px;
