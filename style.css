@@ -7,7 +7,7 @@ body{
     background: black;
 }
 .main{
-    background-image: url("assets/img/bg.jpg");
+    background-image: url("bg.jpg");
     height: 80vh;
     position: relative;
     background-position: center center;
